@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
-	"github.com/xendit/xendit-go"
-	"github.com/xendit/xendit-go/payout"
-	"github.com/xendit/xendit-go/utils/validator"
+	"github.com/mantishK/xendit-go"
+	"github.com/mantishK/xendit-go/payout"
+	"github.com/mantishK/xendit-go/utils/validator"
 )
 
 func initTesting(apiRequesterMockObj xendit.APIRequester) {

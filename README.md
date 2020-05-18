@@ -1,10 +1,10 @@
 # Xendit API Go Client
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/xendit/xendit-go)
-![](https://github.com/xendit/xendit-go/workflows/integration-test/badge.svg)
-![](https://github.com/xendit/xendit-go/workflows/lint/badge.svg)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/mantishK/xendit-go)
+![](https://github.com/mantishK/xendit-go/workflows/integration-test/badge.svg)
+![](https://github.com/mantishK/xendit-go/workflows/lint/badge.svg)
 [![Coverage Status](https://coveralls.io/repos/github/xendit/xendit-go/badge.svg)](https://coveralls.io/github/xendit/xendit-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xendit/xendit-go)](https://goreportcard.com/report/github.com/xendit/xendit-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mantishK/xendit-go)](https://goreportcard.com/report/github.com/mantishK/xendit-go)
 
 This library is the abstraction of Xendit API for access from applications written with Go.
 
@@ -34,22 +34,22 @@ This library is the abstraction of Xendit API for access from applications writt
 
 For the API documentation, check [Xendit API Reference](https://xendit.github.io/apireference).
 
-For the details of this library, see the [GoDoc](https://pkg.go.dev/github.com/xendit/xendit-go).
+For the details of this library, see the [GoDoc](https://pkg.go.dev/github.com/mantishK/xendit-go).
 
 ## Installation
 
 Install xendit-go with:
 
 ```sh
-go get -u github.com/xendit/xendit-go
+go get -u github.com/mantishK/xendit-go
 ```
 
 Then, import it using:
 
 ```go
 import (
-    "github.com/xendit/xendit-go"
-    "github.com/xendit/xendit-go/$product$"
+    "github.com/mantishK/xendit-go"
+    "github.com/mantishK/xendit-go/$product$"
 )
 ```
 
@@ -65,7 +65,7 @@ module github.com/my/package
 go 1.13
 
 require (
-  github.com/xendit/xendit-go v1.0.0
+  github.com/mantishK/xendit-go v1.0.0
 )
 ```
 
@@ -73,8 +73,8 @@ And use the same style of import paths as above:
 
 ```go
 import (
-    "github.com/xendit/xendit-go"
-    "github.com/xendit/xendit-go/$product$"
+    "github.com/mantishK/xendit-go"
+    "github.com/mantishK/xendit-go/$product$"
 )
 ```
 
@@ -93,7 +93,7 @@ go get -u github.com/go-playground/validator
 Please note that this means you are using `master` of [validator](https://github.com/go-playground/validator)
 and effectively miss out on its versioning that's gomod-based.
 
-After installing [validator](https://github.com/go-playground/validator), [xendit-go](https://github.com/xendit/xendit-go)
+After installing [validator](https://github.com/go-playground/validator), [xendit-go](https://github.com/mantishK/xendit-go)
 can be [installed normally](#installation).
 
 ## Usage
@@ -106,8 +106,8 @@ If you're only dealing with a single `secret key`, you can simply import the pac
 
 ```go
 import (
-    "github.com/xendit/xendit-go"
-    "github.com/xendit/xendit-go/$product$"
+    "github.com/mantishK/xendit-go"
+    "github.com/mantishK/xendit-go/$product$"
 )
 
 // Setup
@@ -131,8 +131,8 @@ If you're dealing with multiple `secret key`s, it is recommended you use `client
 
 ```go
 import (
-    "github.com/xendit/xendit-go"
-    "github.com/xendit/xendit-go/client"
+    "github.com/mantishK/xendit-go"
+    "github.com/mantishK/xendit-go/client"
 )
 
 // Basic setup
@@ -153,22 +153,22 @@ resp, err := xenCli.$product$.GetAll($product$.GetAllParams)
 
 ### Sub-Packages Documentations
 
-The following is a list of pointers to documentations for sub-packages of [xendit-go](https://github.com/xendit/xendit-go).
+The following is a list of pointers to documentations for sub-packages of [xendit-go](https://github.com/mantishK/xendit-go).
 
-- [Invoice](https://pkg.go.dev/github.com/xendit/xendit-go/invoice)
-- [E-Wallet](https://pkg.go.dev/github.com/xendit/xendit-go/ewallet)
-- [Balance](https://pkg.go.dev/github.com/xendit/xendit-go/balance)
-- [Virtual Account](https://pkg.go.dev/github.com/xendit/xendit-go/virtualaccount)
-- [Retail Outlet](https://pkg.go.dev/github.com/xendit/xendit-go/retailoutlet)
-- [Disbursement](https://pkg.go.dev/github.com/xendit/xendit-go/disbursement)
-- [Card](https://pkg.go.dev/github.com/xendit/xendit-go/card)
-- [Payout](https://pkg.go.dev/github.com/xendit/xendit-go/payout)
-- [Recurring Payment](https://pkg.go.dev/github.com/xendit/xendit-go/recurringpayment)
-- [Cardless Credit](https://pkg.go.dev/github.com/xendit/xendit-go/cardlesscredit)
+- [Invoice](https://pkg.go.dev/github.com/mantishK/xendit-go/invoice)
+- [E-Wallet](https://pkg.go.dev/github.com/mantishK/xendit-go/ewallet)
+- [Balance](https://pkg.go.dev/github.com/mantishK/xendit-go/balance)
+- [Virtual Account](https://pkg.go.dev/github.com/mantishK/xendit-go/virtualaccount)
+- [Retail Outlet](https://pkg.go.dev/github.com/mantishK/xendit-go/retailoutlet)
+- [Disbursement](https://pkg.go.dev/github.com/mantishK/xendit-go/disbursement)
+- [Card](https://pkg.go.dev/github.com/mantishK/xendit-go/card)
+- [Payout](https://pkg.go.dev/github.com/mantishK/xendit-go/payout)
+- [Recurring Payment](https://pkg.go.dev/github.com/mantishK/xendit-go/recurringpayment)
+- [Cardless Credit](https://pkg.go.dev/github.com/mantishK/xendit-go/cardlesscredit)
 
 ## Contribute
 
-For any requests, bugs, or comments, please [open an issue](https://github.com/xendit/xendit-go/issues/new) or submit a pull request.
+For any requests, bugs, or comments, please [open an issue](https://github.com/mantishK/xendit-go/issues/new) or submit a pull request.
 
 ### Test
 
@@ -209,4 +209,4 @@ After installing the pre-commit, please install the needed dependencies:
 make init
 ```
 
-After the code passes everything, please [submit a pull request](https://github.com/xendit/xendit-go/pulls).
+After the code passes everything, please [submit a pull request](https://github.com/mantishK/xendit-go/pulls).

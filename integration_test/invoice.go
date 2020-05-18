@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/xendit/xendit-go/invoice"
+	"github.com/mantishK/xendit-go/invoice"
 )
 
 func invoiceTest() {

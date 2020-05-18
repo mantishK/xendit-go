@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xendit/xendit-go/utils/urlvalues"
+	"github.com/mantishK/xendit-go/utils/urlvalues"
 )
 
 func TestAddTimeToURLValues(t *testing.T) {

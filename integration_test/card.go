@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xendit/xendit-go/card"
+	"github.com/mantishK/xendit-go/card"
 )
 
 func cardTest() {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/xendit/xendit-go"
-	"github.com/xendit/xendit-go/balance"
+	"github.com/mantishK/xendit-go"
+	"github.com/mantishK/xendit-go/balance"
 )
 
 func ExampleGet() {

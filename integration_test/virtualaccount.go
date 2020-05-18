@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/xendit/xendit-go/virtualaccount"
+	"github.com/mantishK/xendit-go/virtualaccount"
 )
 
 func virtualaccountTest() {

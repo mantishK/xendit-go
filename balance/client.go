@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/xendit/xendit-go"
+	"github.com/mantishK/xendit-go"
 )
 
 // Client is the client used to invoke balance API.

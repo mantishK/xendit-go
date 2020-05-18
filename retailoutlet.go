@@ -13,7 +13,7 @@ const (
 
 // RetailOutlet contains data from Xendit's API response of retail outlet related requests.
 // For more details see https://xendit.github.io/apireference/?bash#retail-outlets.
-// For documentation of subpackage retailoutlet, checkout https://pkg.go.dev/github.com/xendit/xendit-go/retailoutlet
+// For documentation of subpackage retailoutlet, checkout https://pkg.go.dev/github.com/mantishK/xendit-go/retailoutlet
 type RetailOutlet struct {
 	IsSingleUse      bool                 `json:"is_single_use"`
 	Status           string               `json:"status"`

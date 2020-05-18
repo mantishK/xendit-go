@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 	
-	"github.com/xendit/xendit-go"
-	"github.com/xendit/xendit-go/utils/validator"
+	"github.com/mantishK/xendit-go"
+	"github.com/mantishK/xendit-go/utils/validator"
 )
 
 // Client is the client used to invoke invoice API.

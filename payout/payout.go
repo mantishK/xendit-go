@@ -3,7 +3,7 @@ package payout
 import (
 	"context"
 
-	"github.com/xendit/xendit-go"
+	"github.com/mantishK/xendit-go"
 )
 
 // Create creates new payout

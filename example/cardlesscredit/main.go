@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	"github.com/xendit/xendit-go"
-	"github.com/xendit/xendit-go/cardlesscredit"
+	"github.com/mantishK/xendit-go"
+	"github.com/mantishK/xendit-go/cardlesscredit"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xendit/xendit-go"
-	"github.com/xendit/xendit-go/utils/validator"
+	"github.com/mantishK/xendit-go"
+	"github.com/mantishK/xendit-go/utils/validator"
 )
 
 func TestValidateRequired(t *testing.T) {
