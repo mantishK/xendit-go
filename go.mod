@@ -1,4 +1,4 @@
-module github.com/xendit/xendit-go
+module github.com/mantishK/xendit-go
 
 go 1.13
 
